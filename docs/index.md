@@ -6,8 +6,9 @@ hide:
 
 # Welcome to my blog website
 
-这里是我的个人博客网，在这里我将不定期的分享我的[obsidian](https://obsidian.md/)的笔记   
+这里是我的个人博客网，Pisceshub是我常用的账号名，源于我是双鱼座，在这里我将不定期的分享我的[obsidian](https://obsidian.md/)的笔记   
 主要包含部分我的介绍、学习的笔记、搜集的电脑使用工具的“技巧”、分享阅读的文章，以及感悟等内容。
+
 ### [关于我](./manuscript/01_my_inf/about_me.md)
 
 ### [测试文件](./manuscript/00_test/test.md)
