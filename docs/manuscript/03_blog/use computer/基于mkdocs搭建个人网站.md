@@ -103,7 +103,10 @@ git push origin main
 ```
 mkdocs gh-deploy
 ```
-
+部署后需要等待>30s左右才会完成渲染，稍安勿躁。
+```
+https://yourhub.github.io/yourrepositories/
+```
 ## 8. 后续上传：
 
 在相应的文件夹下：
