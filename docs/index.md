@@ -26,7 +26,7 @@ hide:
 
 您可以在这些地方找到我的踪迹： 
   
-- 个人网站：[Pisceshub](https://pisceshub.github.io/)
+- 个人网站：[Pisceshub](https://Pisceshub.github.io/My_website/)
 - 我的[github](https://github.com/Pisceshub)，这里是我的gihub  
 - 我的[bilibili](https://space.bilibili.com/487535234?spm_id_from=333.788.0.0)，当然这里现在什么都没有  
 - 我的[csdn](https://blog.csdn.net/xiaoxinlove4?spm=1011.2124.3001.5343)，当然这里目前只有一篇文章  
@@ -38,7 +38,7 @@ hide:
 
 我的快速上传指令：
 ```
-cd F:\My_work_file\Program_file\Obsidian_file\My_World\04_My_website\My_website 
+cd F:\My_work_file\Program_file\Obsidian_file\My_World\04_My_website
 git add .
 git commit -m "update"
 git push -u origin main
