@@ -1,0 +1,72 @@
+site_name: Pisceshub
+theme:
+  favicon: assets/images/favicon.png
+  logo: assets/images/logo.png
+  name: material
+  language: en
+  features:
+    - navigation.path
+    - navigation.instant
+    - navigation.tracking
+    - navigation.prune
+    # - toc.integrate
+    - navigation.top
+    - search.share
+    - header.autohide
+    - announce.dismiss
+    # - navigation.footer
+
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      ## 设置颜色
+      # red， pink， purple， deep purple， indigo， blue， 
+      # light blue，cyan，teal，green，light green，lime，
+      # yellow，amber，orange，deep orange
+      primary: black  
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: blue grey
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+extra_css:
+  - stylesheets/extra.css
+
+# extra:
+#   homepage: https://example.com
+
+
+extra:
+  version:
+    provider: mike
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+
+
+copyright: >
+  Copyright &copy; 2016 - 2023 Martin Donath –
+  <a href="#__consent">Change cookie settings</a>
+
+extra_javascript:
+  - javascripts/consent.js
+
+plugins:
+  - search
+  - tags
