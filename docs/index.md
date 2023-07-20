@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-# 欢迎来到我的博客  
+# Welcome to my blog website
 
 这里是我的个人博客网，在这里我将不定期的分享我的[obsidian](https://obsidian.md/)的笔记   
 主要包含部分我的介绍、学习的笔记、搜集的电脑使用工具的“技巧”、分享阅读的文章，以及感悟等内容。
