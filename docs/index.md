@@ -34,6 +34,7 @@ hide:
 该网站基于[github pages](https://pages.github.com/)和[mkdocs](https://www.mkdocs.org/)完成搭建  
 快速上传指令：
 ```
+cd F:\My_work_file\Program_file\Obsidian_file\My_World\04_My_website\My_website 
 git add .
 git commit -m "update"
 git push -u origin main
