@@ -81,7 +81,7 @@ mkdocs serve
 
 将本地推送到仓库：
 
-![figure 5](04_My_website/My_website/docs/manuscript/03_blog/use%20computer/attachments/5ba94137196aebb4287b75aadbef2329_MD5.png)
+![figure 5](/My_website/docs/manuscript/03_blog/use_computer/attachments/5ba94137196aebb4287b75aadbef2329_MD5.png)
 
 git以及上传github命令：
 ```
