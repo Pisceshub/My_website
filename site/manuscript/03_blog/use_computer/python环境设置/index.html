@@ -9,17 +9,17 @@
       
       
       
-        <link rel="prev" href="../python%E7%8E%AF%E5%A2%83%E8%AE%BE%E7%BD%AE/">
+        <link rel="prev" href="../../../02_csdn/CSDN/">
       
       
-        <link rel="next" href="../%E5%9F%BA%E4%BA%8Emkdocs%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/">
+        <link rel="next" href="../skill/">
       
       <link rel="icon" href="../../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.17">
     
     
       
-        <title>电脑使用技巧 - Pisceshub</title>
+        <title>python环境设置 - Pisceshub</title>
       
     
     
@@ -73,7 +73,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#_1" class="md-skip">
+        <a href="#python" class="md-skip">
           Skip to content
         </a>
       
@@ -111,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              电脑使用技巧
+              python环境设置
             
           </span>
         </div>
@@ -360,7 +360,7 @@
   
     <li class="md-nav__item">
       <a href="../../../01_my_inf/about_me/" class="md-nav__link">
-        关于我
+        **关于我**
       </a>
     </li>
   
@@ -484,20 +484,6 @@
               
   
   
-  
-    <li class="md-nav__item">
-      <a href="../python%E7%8E%AF%E5%A2%83%E8%AE%BE%E7%BD%AE/" class="md-nav__link">
-        python环境设置
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
     
   
   
@@ -510,12 +496,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          电脑使用技巧
+          python环境设置
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        电脑使用技巧
+        python环境设置
       </a>
       
         
@@ -534,8 +520,50 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#windowscdsystem" class="md-nav__link">
-    windows下的C盘的图片、视频文档、音乐、桌面迁移到D盘system文件夹下：
+  <a href="#anaconda" class="md-nav__link">
+    汇总anaconda命令：
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-i" class="md-nav__link">
+    镜像源网址：-i
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#whl" class="md-nav__link">
+    whl的离线库安装：
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    安装指定版本：
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    当前文件夹下创建虚拟环境
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    指定某虚拟环境安装卸载库
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pip" class="md-nav__link">
+    永久设置自己的pip源为清华源：
   </a>
   
 </li>
@@ -544,6 +572,20 @@
   
 </nav>
       
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../skill/" class="md-nav__link">
+        电脑使用技巧
+      </a>
     </li>
   
 
@@ -610,8 +652,50 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#windowscdsystem" class="md-nav__link">
-    windows下的C盘的图片、视频文档、音乐、桌面迁移到D盘system文件夹下：
+  <a href="#anaconda" class="md-nav__link">
+    汇总anaconda命令：
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-i" class="md-nav__link">
+    镜像源网址：-i
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#whl" class="md-nav__link">
+    whl的离线库安装：
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    安装指定版本：
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    当前文件夹下创建虚拟环境
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    指定某虚拟环境安装卸载库
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pip" class="md-nav__link">
+    永久设置自己的pip源为清华源：
   </a>
   
 </li>
@@ -634,8 +718,100 @@
 
 
 
-<h1 id="_1">电脑使用技巧</h1>
-<h2 id="windowscdsystem">windows下的C盘的图片、视频文档、音乐、桌面迁移到D盘system文件夹下：</h2>
+<h1 id="python">python环境设置</h1>
+<h3 id="anaconda"><strong>汇总anaconda命令：</strong></h3>
+<p>anaconda环境激活卸载安装创建  </p>
+<ul>
+<li>
+<p>创建虚拟环境：<code>conda create -n env_name python=3.9</code>  </p>
+</li>
+<li>
+<p>激活虚拟环境：<code>conda activate env_name</code>  </p>
+</li>
+<li>
+<p>退出当前环境：<code>conda deactivate env_name</code>  </p>
+</li>
+<li>
+<p>删除环境：<code>conda remove -n your_env_name --all</code>  </p>
+</li>
+<li>
+<p>查看安装的包：<code>conda list</code>：查看安装了哪些包。  </p>
+</li>
+<li>
+<p>安装包：<code>conda install package_name</code>(包名)  </p>
+</li>
+<li>
+<p>查看当前存在哪些虚拟环境：<code>conda env list</code> 或 <code>conda info -e</code>  </p>
+</li>
+<li>
+<p>检查更新当前<code>conda：conda update conda</code></p>
+</li>
+</ul>
+<h3 id="-i"><strong>镜像源网址：-i</strong></h3>
+<ul>
+<li>
+<p>清华：<code>https://pypi.tuna.tsinghua.edu.cn/simple</code></p>
+</li>
+<li>
+<p>阿里云：<code>http://mirrors.aliyun.com/pypi/simple/</code></p>
+</li>
+<li>
+<p>中国科技大学 <code>https://pypi.mirrors.ustc.edu.cn/simple/</code></p>
+</li>
+<li>
+<p>华中理工大学：<code>http://pypi.hustunique.com/</code></p>
+</li>
+<li>
+<p>山东理工大学：<code>http://pypi.sdutlinux.org/</code></p>
+</li>
+<li>
+<p>豆瓣：<code>http://pypi.douban.com/simple/</code></p>
+</li>
+</ul>
+<h3 id="whl">whl的离线库安装：</h3>
+<ul>
+<li>pytorch的安装：  </li>
+</ul>
+<p><code>torch-1.11.0+cu113-cp39-cp39-win_amd64.whl + torchaudio-0.11.0+cu113-cp39-cp39-win_amd64.whl torchvision -i https://mirror.sjtu.edu.cn/pytorch-wheels/cu113/?mirror_intel_list</code>  </p>
+<p>- 查看模型的库torchsummary\prettytable</p>
+<h3 id="_1">安装指定版本：</h3>
+<p><code>pip install pytorch==0.1.10</code></p>
+<p><code>conda install pytorch=0.1.10 -c soumith</code>  </p>
+<h3 id="_2">当前文件夹下创建虚拟环境</h3>
+<p><code>python -m venv env_name</code>  </p>
+<p>激活该环境：  </p>
+<p><code>env_name\Script\activate</code>  </p>
+<p>升级该环境pip：  </p>
+<p><code>pip install --upgrade pip</code></p>
+<h3 id="_3">指定某虚拟环境安装卸载库</h3>
+<p>示例：安装python的串口的库  </p>
+<ul>
+<li>
+<p><code>pip install pyserial</code></p>
+</li>
+<li>
+<p><code>F:\Program\Programming\Python\Anaconda3\Scripts\pip3 install pyserial -i https://pypi.tuna.tsinghua.edu.cn/simple/</code></p>
+</li>
+<li>
+<p><code>F:\Program\Programming\Python\Python3.9.12\Scripts\pip3 install pyserial -i https://pypi.tuna.tsinghua.edu.cn/simple/</code></p>
+</li>
+</ul>
+<p>卸载python的串口的库  </p>
+<ul>
+<li><code>D:\Anaconda3_2022.10\Scripts\pip3 uninstall serial</code></li>
+</ul>
+<p>重装库文件</p>
+<p><code>pip install --force-reinstall -t D:\Anaconda3_2022.10\Lib\site-packages tokenizers==0.13 -i https://pypi.tuna.tsinghua.edu.cn/simple/</code></p>
+<h3 id="pip"><a href="https://mirrors.tuna.tsinghua.edu.cn/help/pypi/">永久设置自己的pip源为清华源</a>：</h3>
+<pre><code>python -m pip install --upgrade pip
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+</code></pre>
+<p>临时使用升级pip</p>
+<pre><code>python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade pip
+</code></pre>
+<p>配置多个镜像源</p>
+<pre><code>pip config set global.extra-index-url &quot;&lt;url1&gt; &lt;url2&gt;...&quot;
+</code></pre>
 
 
 
