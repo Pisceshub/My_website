@@ -11,18 +11,17 @@ hide:
 
 由于大多数软件对中文的支持不太好，并且我的English更Poor，但我还是坚持目录文件夹等，采用**英文**+‘_’的方式来命名，而内容上尽可能地采用中文来陈述，希望大家更多的关注内容本身而不受语言的困扰。
 
-### [about_me](./manuscript/01_my_inf/about_me.md)
+### [1. about_me](./manuscript/01_my_inf/about_me.md)
 
-### [test_file](./manuscript/00_test/test.md)
+### [2. test_file](./manuscript/00_test/test.md)
 
 该文件主要用于测试一些代码的测试运行和文档的排版
 
-## 基于mkdocs搭建个人网站
-  
-[My_Website](./manuscript/03_blog/use_computer/基于mkdocs搭建个人网站.md)
+### [3. My_Website](./manuscript/03_blog/use_computer/基于mkdocs搭建个人网站.md)
 
 该文件讲诉此网站如何搭建。
 
+[CSDN](manuscript/02_csdn/CSDN.md)
 
 您可以在这些地方找到我的踪迹： 
   
