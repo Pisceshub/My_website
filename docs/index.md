@@ -1,17 +1,31 @@
-# Welcome to Pisceshub
+---
+hide:
+  - navigation
+  - toc
+---
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+# 欢迎来到我的博客  
 
-## Commands
+这里是我的个人博客网，在这里我将不定期的分享我的[obsidian](https://obsidian.md/)的笔记   
+主要包含部分我的介绍、学习的笔记、搜集的电脑使用工具的“技巧”、分享阅读的文章，以及感悟等内容。
+#### [关于我](./manuscript/01_my_inf/about_me.md)
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+#### [测试文件](./manuscript/00_test/test.md)
 
-## Project layout
+该文件主要用于测试一些代码的测试运行和文档的排版
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+
+  
+您可以在这些地方找到我的踪迹： 
+  
+- 个人网站：[Pisceshub](https://pisceshub.github.io/)
+- 我的[github](https://github.com/Pisceshub)，这里是我的gihub  
+- 我的[bilibili](https://space.bilibili.com/487535234?spm_id_from=333.788.0.0)，当然这里现在什么都没有  
+- 我的[csdn](https://blog.csdn.net/xiaoxinlove4?spm=1011.2124.3001.5343)，当然这里目前只有一篇文章  
+
+您也可以这样联系我：
+- @email: xugx00@stu.xjtu.edu.cn or guixingxu00@gmail.com
+
+基于[github pages](https://pages.github.com/)和[mkdocs](https://www.mkdocs.org/)完成搭建  
+
+
