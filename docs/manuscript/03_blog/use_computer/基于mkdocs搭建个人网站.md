@@ -55,8 +55,8 @@ cd my_website
 
 创建后是这样的：
 
-![04_My_website/My_website/docs/manuscript/03_blog/use computer/attachments/8fe488bca66cbe06509634f3adffad84_MD5.png](Pasted%20image%2020230720175316.png)
-[学习视频截图](04_My_website/My_website/docs/manuscript/03_blog/use%20computer/attachments/8fe488bca66cbe06509634f3adffad84_MD5.png%7COpen:%20Pasted%20image%2020230720175316.png)
+![figure 1](/My_website/docs/manuscript/03_blog/use_computer/attachments/8fe488bca66cbe06509634f3adffad84_MD5.png)
+
 
 预览项目：先进入my_website文件夹，再运行`mkdocs serve`
 
@@ -64,8 +64,9 @@ cd my_website
 cd my_website
 mkdocs serve
 ```
+本地链接  
 
-![本地链接](b68a45a6b18ae36a7baf9b304d007a3e_MD5.png)
+![figure 2](/My_website/docs/manuscript/03_blog/use_computer/attachments/b68a45a6b18ae36a7baf9b304d007a3e_MD5.png)
 
 ## 5. 页面布局
 
@@ -76,11 +77,11 @@ mkdocs serve
 
 
 创建新的仓库 
-![创建新的仓库](9bf714a7225ecfbe381382bd297ecd08_MD5.png)
+![figure 4](/My_website/docs/manuscript/03_blog/use_computer/attachments/9bf714a7225ecfbe381382bd297ecd08_MD5.png)
 
 将本地推送到仓库：
 
-![figure 1](04_My_website/My_website/docs/manuscript/03_blog/use%20computer/attachments/5ba94137196aebb4287b75aadbef2329_MD5.png)
+![figure 5](04_My_website/My_website/docs/manuscript/03_blog/use%20computer/attachments/5ba94137196aebb4287b75aadbef2329_MD5.png)
 
 git以及上传github命令：
 ```
@@ -118,6 +119,6 @@ git push -u origin main
 mkdocs gh-deploy
 ```
 
-最后，非常感谢[8047-](https://www.bilibili.com/video/BV1FB4y1n7Gf/?spm_id_from=333.880.my_history.page.click&vd_source=f6b887c95aa7969fce3d0ed6ca6f2232)up主的视频帮助，让我快速掌握个人网站搭建。也非常感谢[MkDocs](https://www.mkdocs.org/)作者的贡献。
+最后，非常感谢[8047-](https://www.bilibili.com/video/BV1FB4y1n7Gf/?spm_id_from=333.880.my_history.page.click&vd_source=f6b887c95aa7969fce3d0ed6ca6f2232)up主的视频帮助，让我快速掌握个人网站搭建。也非常感谢[MkDocs](https://www.mkdocs.org/) 作者的贡献.以及感谢[github pages](https://pages.github.com/)平台
 
 这里是我的个人网站[Pisceshub](https://Pisceshub.github.io/My_website/)

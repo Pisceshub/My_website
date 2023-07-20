@@ -16,7 +16,7 @@ hide:
 
 ## 基于mkdocs搭建个人网站
   
-[个人网站](%E5%9F%BA%E4%BA%8Emkdocs%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99.md)
+[个人网站](./manuscript/03_blog/use_computer/基于mkdocs搭建个人网站.md)
 
 该文件讲诉此网站如何搭建。
 

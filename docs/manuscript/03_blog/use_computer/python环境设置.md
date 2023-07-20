@@ -40,9 +40,7 @@ anaconda环境激活卸载安装创建  
 
 - pytorch的安装：  
 
-    torch-1.11.0+cu113-cp39-cp39-win_amd64.whl + torchaudio-0.11.0+cu113-cp39-cp39-win_amd64.whl torchvision  
-
-    https://mirror.sjtu.edu.cn/pytorch-wheels/cu113/?mirror_intel_list  
+  `torch-1.11.0+cu113-cp39-cp39-win_amd64.whl + torchaudio-0.11.0+cu113-cp39-cp39-win_amd64.whl torchvision -i https://mirror.sjtu.edu.cn/pytorch-wheels/cu113/?mirror_intel_list`  
 
  - 查看模型的库torchsummary\prettytable
 
