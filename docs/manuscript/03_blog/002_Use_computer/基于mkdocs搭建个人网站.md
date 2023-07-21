@@ -4,12 +4,12 @@
 如果安装有anaconda，则用<span style="background:rgba(173, 239, 239, 0.55)">anaconda创建环境</span>
 
 ```python
-	# 创建虚拟环境
-	conda create -n mkdocs_env python=3.9
-	# 激活虚拟环境：
-	conda activate mkdocs_env
-	# 检查pip list是不是空的
-	pip list
+# 创建虚拟环境
+conda create -n mkdocs_env python=3.9
+# 激活虚拟环境：
+conda activate mkdocs_env
+# 检查pip list是不是空的
+pip list
 ```
 
 ## 2. 关于mkdocs
@@ -18,7 +18,9 @@
 
 ## 3. 安装mkdocs
 
-`pip install Mkdocs`
+```
+pip install Mkdocs
+```
 
 安装 & 配置主题
 
@@ -53,10 +55,9 @@ mkdocs new my_website
 cd my_website
 ```
 
-创建后是这样的：
+创建后文件夹是这样的：
 
-![figure 1](/My_website/docs/manuscript/03_blog/use_computer/attachments/8fe488bca66cbe06509634f3adffad84_MD5.png)
-
+![figure 1](images/image.png)
 
 预览项目：先进入my_website文件夹，再运行`mkdocs serve`
 
@@ -66,8 +67,7 @@ mkdocs serve
 ```
 本地链接  
 
-![figure 2](/My_website/docs/manuscript/03_blog/use_computer/attachments/b68a45a6b18ae36a7baf9b304d007a3e_MD5.png)
-
+![figure 2](images/image1.png)
 ## 5. 页面布局
 
 [导航栏支持多级布局：](https://mkdocs-like-code.readthedocs.io/zh_CN/latest/MkDocs-advanced-operations/theme-configuration/)
@@ -77,12 +77,12 @@ mkdocs serve
 
 
 创建新的仓库 
-![figure 4](/My_website/docs/manuscript/03_blog/use_computer/attachments/9bf714a7225ecfbe381382bd297ecd08_MD5.png)
 
+![figure 4](images/image2.png)
 将本地推送到仓库：
 
-![figure 5](/My_website/docs/manuscript/03_blog/use_computer/attachments/5ba94137196aebb4287b75aadbef2329_MD5.png)
 
+![figure 5](images/image3.png)
 git以及上传github命令：
 ```
 git init
@@ -119,6 +119,85 @@ git push -u origin main
 mkdocs gh-deploy
 ```
 
-最后，非常感谢[8047-](https://www.bilibili.com/video/BV1FB4y1n7Gf/?spm_id_from=333.880.my_history.page.click&vd_source=f6b887c95aa7969fce3d0ed6ca6f2232)up主的视频帮助，让我快速掌握个人网站搭建。也非常感谢[MkDocs](https://www.mkdocs.org/) 作者的贡献.以及感谢[github pages](https://pages.github.com/)平台
+非常感谢[8047-](https://www.bilibili.com/video/BV1FB4y1n7Gf/?spm_id_from=333.880.my_history.page.click&vd_source=f6b887c95aa7969fce3d0ed6ca6f2232)up主的视频帮助，让我快速掌握个人网站搭建。也非常感谢[MkDocs](https://www.mkdocs.org/) 作者的贡献.以及感谢[github pages](https://pages.github.com/)平台
 
 这里是我的个人网站[Pisceshub](https://Pisceshub.github.io/My_website/)
+
+
+附件：**mkdocs.yml**文件内容：
+
+```
+site_name: Pisceshub
+theme:
+  favicon: assets/images/favicon.png
+  logo: assets/images/logo.png
+  name: material
+  language: en
+  features:
+    - navigation.path
+    - navigation.instant
+    - navigation.tracking
+    - navigation.prune
+    # - toc.integrate
+    - navigation.top
+    - search.share
+    - header.autohide
+    - announce.dismiss
+    - navigation.footer
+
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      ## set colour
+      # red， pink， purple， deep purple， indigo， blue， 
+      # light blue，cyan，teal，green，light green，lime，
+      # yellow，amber，orange，deep orange
+      primary: black  
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: blue grey
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+extra_css:
+  - stylesheets/extra.css
+
+# extra:
+#   homepage: https://example.com
+
+
+extra:
+  version:
+    provider: mike
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+
+
+copyright: >
+  Copyright &copy; 2016 - 2023 Martin Donath –
+  <a href="#__consent">Change cookie settings</a>
+
+extra_javascript:
+  - javascripts/consent.js
+
+plugins:
+  - search
+  - tags
+
+```

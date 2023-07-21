@@ -1,4 +1,5 @@
-## 介绍如何使用Vscode来快速编辑verilog代码
+[该文CSDN链接](https://mp.csdn.net/mp_blog/manage/article?spm=3001.5298)  
+
 背景：verilog中很多重复的结构和语句，针对此情况现有的插件代码补全太少了，所以出此文编写自定义代码块，拒绝重复编写同结构的代码，同结构代码自定义代码模板。
 ### 1.Vscode安装
 - Vscode官网：https://code.visualstudio.com/
@@ -24,9 +25,9 @@
 ### 3.IC的module模板：
 主要包含日常新建module、新建if、新建always、新建ifelse等语句的自动补全
 
-![[10_attachment/b7e6bf3559dd3bbfad669c3d09c16c98_MD5.png]]
+![Alt text](./attachments/image.png)
 然后选择所需要设置的代码类型：我用的是verilog.json（应该是某个插件的配置代码）
-![[10_attachment/7af15f737ba0fe374da0e4632e49144c_MD5.png]]
+![Alt text](attachments/image1.png)
 verilog.json文件内容：
 ```json
 {
@@ -232,9 +233,13 @@ verilog.json文件内容：
 		}
 }
 ```
-注意：请尽量代码备注用英文，Poor English 都行，因为verilog这种代码还是采用vcs+verdi来仿真比较好，速度快，而且对任意信号都可以调用信号，vcs+verdi对中文不太友好。
-后续有需要的我再写一个makefile文件。
-（当然当时学习makefile编写的哪个博客的内容我忘了不好意思）。  
+注意：请尽量代码备注用英文，Poor English 都行，因为verilog这种代码还是采用vcs+verdi来仿真比较好，速度快，而且对任意信号都可以调用信号，vcs+verdi对中文不太友好。另外，对于module模块定义的时候，代码行后写该信号作用，并分接口类型前一行来写该组信号作用。**module模块信号尽可能地对齐。哪怕是标点符号，这样可以列选择，例化地时候非常方便！！！！**。
+
+另外对于经常写的代码，也可以通过这种方式来自动补全。
+
+在虚拟机中用VCS+Verdi的makefile文件请参考[VCS仿真教程(一)：Verilog+波形+Makefile](https://blog.csdn.net/burningCky/article/details/109891288)
+
+另外还希望每个模块尽可能地在开始写上笔名+联系方式+日期+功能描述（会借助插件生成时序图地尽量插上时序图方便回顾）。
 
 批注：写此博客主要是个人记录学习内容，
 
