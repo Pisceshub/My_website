@@ -12,21 +12,25 @@ hide:
 
 我的English比较Poor，但由于大多数软件对中文的支持不太好，所以对于目录文件夹等，还是采用**英文**+‘_’的方式来命名，而内容上尽可能地采用中文来陈述，希望大家更多的关注内容本身而不受语言的困扰。当然建议查看原著获取信息(特别是针对学术性内容)。
 
+### [0. This site](./index.md)
+
+本页内容，可以忽略。
+
 ### [1. about_me](./manuscript/01_my_inf/about_me.md)
 
 该文章主要介绍我个人的一些情况，可以忽略。
 
-### [2. test_file](./manuscript/00_test/test.md)
-
-该文章主要用于一些代码的测试运行和文档的排版，可以忽略。
-
-### [3. My_blog](./manuscript/03_blog/My_blog.md)
+### [2. Blog](./manuscript/03_blog/My_blog.md)
 
 该文章主要用于写一些技术类博客文章，推荐查看。
 
-### [4. Update](./Update.md)
+### [3. Update](./Update.md)
 
 该文章主要用于总结记录最近更新的文章，推荐查看。
+
+### [4. test_file](./manuscript/00_test/test.md)
+
+该文章主要用于一些代码的测试运行和文档的排版，可以忽略。
 
 
 您可以在这些地方找到我的踪迹： 
@@ -59,3 +63,11 @@ mkdocs gh-deploy
 ```
 mkdocs serve
 ```
+
+
+<hr> <span id="runtime_span"></span>
+<script type="text/javascript">function show_runtime(){window.setTimeout("show_runtime()",1000);X=new 
+Date("5/20/2023 5:20:00");
+Y=new Date();T=(Y.getTime()-X.getTime());M=24*60*60*1000;
+a=T/M;A=Math.floor(a);b=(a-A)*24;B=Math.floor(b);c=(b-B)*60;C=Math.floor((b-B)*60);D=Math.floor((c-C)*60);
+runtime_span.innerHTML="本站已运行: "+A+"天"+B+"小时"+C+"分"+D+"秒"}show_runtime();</script>
