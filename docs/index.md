@@ -48,5 +48,5 @@ mkdocs gh-deploy
 
 本地预览网站指令：
 ```
-mkdocs gh-deploy
+mkdocs serve
 ```
