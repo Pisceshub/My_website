@@ -1,5 +1,5 @@
 ## 1. 关于环境
-基于python3.9创建虚拟环境，python环境配置指令参考[python环境设置](python%E7%8E%AF%E5%A2%83%E8%AE%BE%E7%BD%AE.md)  
+基于python3.9创建虚拟环境，python环境配置指令参考[python环境设置](python环境设置.md)  
 
 如果安装有anaconda，则用<span style="background:rgba(173, 239, 239, 0.55)">anaconda创建环境</span>
 
