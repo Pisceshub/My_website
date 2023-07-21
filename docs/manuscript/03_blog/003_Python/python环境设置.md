@@ -36,7 +36,7 @@ anaconda环境激活卸载安装创建  
 - 豆瓣：`http://pypi.douban.com/simple/`
 
 
-### whl的离线库安装：    
+### **whl的离线库安装： **   
 
 - pytorch的安装：  
 
@@ -45,7 +45,7 @@ anaconda环境激活卸载安装创建  
  - 查看模型的库torchsummary\prettytable
 
 
-### 安装指定版本：
+### **安装指定版本：**
 
 `pip install pytorch==0.1.10`
 
@@ -53,7 +53,7 @@ anaconda环境激活卸载安装创建  
 
 
 
-### 当前文件夹下创建虚拟环境  
+### **当前文件夹下创建虚拟环境  **
 
 `python -m venv env_name`  
 
@@ -66,7 +66,7 @@ anaconda环境激活卸载安装创建  
 `pip install --upgrade pip`
 
 
-### 指定某虚拟环境安装卸载库
+### **指定某虚拟环境安装卸载库**
 
 示例：安装python的串口的库  
 
@@ -84,7 +84,7 @@ anaconda环境激活卸载安装创建  
 
 `pip install --force-reinstall -t D:\Anaconda3_2022.10\Lib\site-packages tokenizers==0.13 -i https://pypi.tuna.tsinghua.edu.cn/simple/`
 
-### [永久设置自己的pip源为清华源](https://mirrors.tuna.tsinghua.edu.cn/help/pypi/)：
+### ** [永久设置自己的pip源为清华源](https://mirrors.tuna.tsinghua.edu.cn/help/pypi/)：**
 
 ```
 python -m pip install --upgrade pip

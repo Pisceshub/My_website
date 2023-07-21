@@ -1,4 +1,10 @@
-# Welcome to MkDocs
+##  测试一下功能和使用
+
+## 指导：
+
+[Changing the colors - Material for MkDocs](https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/)..
+
+## Welcome to MkDocs
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
@@ -16,8 +22,3 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
 
-##  测试一下功能和使用
-
-## 指导：
-
-[Changing the colors - Material for MkDocs](https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/)..
