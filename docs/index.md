@@ -40,7 +40,10 @@ hide:
 
 - email: xugx00@stu.xjtu.edu.cn 
 
+---
+
 该网站基于[github pages](https://pages.github.com/)和[mkdocs](https://www.mkdocs.org/)完成搭建   
+
 
 快速更新网站指令：
 ```
