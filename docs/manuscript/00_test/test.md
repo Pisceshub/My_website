@@ -22,3 +22,8 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
 
+## latex公式测试：
+$\cot \iint\limits_{}^{}$
+
+
+<hr><span id="busuanzi_container_page_pv"><font size="3" color="grey">本文总阅读量<span id="busuanzi_value_page_pv"><\/span>次<\/font><\/span><br\/><\/article>/g' mkdocs-material/material/base.html
