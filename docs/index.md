@@ -45,7 +45,7 @@ hide:
 该网站基于[github pages](https://pages.github.com/)和[mkdocs](https://www.mkdocs.org/)完成搭建   
 
 
-快速更新网站指令：可以将该组命令设定为cmd文件，以后双击运行即可。
+快速更新网站指令：可以将该组命令设定为cmd文件，以后在obsidian中双击运行即可。
 ```
 cd F:\My_work_file\Program_file\Obsidian_file\My_World\04_My_website
 git add .
