@@ -108,7 +108,7 @@ site_url: https://Pisceshub.github.io/My_website/
 # 自定义文档：
 nav:
 
-    - Home: '../'
+    - Home: index.md
     - Update: Update.md
     - About me: 
         My_inf: ./manuscript/01_my_inf/about_me.md 
