@@ -9,8 +9,10 @@
       
       
       
-        <link rel="prev" href="../skill/">
+        <link rel="prev" href="../%E5%85%B6%E4%BB%96%E8%BD%AF%E4%BB%B6/">
       
+      
+        <link rel="next" href="../%E6%88%91%E4%BC%9A%E7%9A%84%E4%B8%93%E4%B8%9A%E8%BD%AF%E4%BB%B6/">
       
       <link rel="icon" href="../../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.17">
@@ -225,7 +227,7 @@
   
     <li class="md-nav__item">
       <a href="../../../.." class="md-nav__link">
-        Welcome to my blog website
+        Home
       </a>
     </li>
   
@@ -295,22 +297,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../00_test/" class="md-nav__link">
-        Welcome to MkDocs
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../../../00_test/test/" class="md-nav__link">
-        Test
+        Welcome to MkDocs
       </a>
     </li>
   
@@ -524,6 +512,20 @@
               
   
   
+  
+    <li class="md-nav__item">
+      <a href="../%E5%85%B6%E4%BB%96%E8%BD%AF%E4%BB%B6/" class="md-nav__link">
+        其他软件
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
     
   
   
@@ -615,6 +617,48 @@
   
 </nav>
       
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E6%88%91%E4%BC%9A%E7%9A%84%E4%B8%93%E4%B8%9A%E8%BD%AF%E4%BB%B6/" class="md-nav__link">
+        我会的专业软件
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E6%96%87%E5%AD%97%E7%BC%96%E8%BE%91%E7%B1%BB/" class="md-nav__link">
+        文字编辑类
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E6%9C%89%E8%B6%A3%E7%9A%84%E8%BD%AF%E4%BB%B6/" class="md-nav__link">
+        有趣的软件
+      </a>
     </li>
   
 
@@ -743,17 +787,18 @@
 <h2 id="1">1. 关于环境</h2>
 <p>基于python3.9创建虚拟环境，python环境配置指令参考<a href="../python%E7%8E%AF%E5%A2%83%E8%AE%BE%E7%BD%AE/">python环境设置</a>  </p>
 <p>如果安装有anaconda，则用<span style="background:rgba(173, 239, 239, 0.55)">anaconda创建环境</span></p>
-<pre><code class="language-python">    # 创建虚拟环境
-    conda create -n mkdocs_env python=3.9
-    # 激活虚拟环境：
-    conda activate mkdocs_env
-    # 检查pip list是不是空的
-    pip list
+<pre><code class="language-python"># 创建虚拟环境
+conda create -n mkdocs_env python=3.9
+# 激活虚拟环境：
+conda activate mkdocs_env
+# 检查pip list是不是空的
+pip list
 </code></pre>
 <h2 id="2-mkdocs">2. 关于mkdocs</h2>
 <p>用mkdocs在github上部署使用非常方便：可以将markdown全部转为HTML，可以部署到服务器或者github。</p>
 <h2 id="3-mkdocs">3. 安装mkdocs</h2>
-<p><code>pip install Mkdocs</code></p>
+<pre><code>pip install Mkdocs
+</code></pre>
 <p>安装 &amp; 配置主题</p>
 <pre><code>pip install mkdocs-material
 </code></pre>
@@ -774,22 +819,22 @@ theme:
 <pre><code>mkdocs new my_website
 cd my_website
 </code></pre>
-<p>创建后是这样的：</p>
-<p><img alt="figure 1" src="/My_website/docs/manuscript/03_blog/use_computer/attachments/8fe488bca66cbe06509634f3adffad84_MD5.png" /></p>
+<p>创建后文件夹是这样的：</p>
+<p><img alt="figure 1" src="../images/image.png" /></p>
 <p>预览项目：先进入my_website文件夹，再运行<code>mkdocs serve</code></p>
 <pre><code>cd my_website
 mkdocs serve
 </code></pre>
 <p>本地链接  </p>
-<p><img alt="figure 2" src="/My_website/docs/manuscript/03_blog/use_computer/attachments/b68a45a6b18ae36a7baf9b304d007a3e_MD5.png" /></p>
+<p><img alt="figure 2" src="../images/image1.png" /></p>
 <h2 id="5">5. 页面布局</h2>
 <p><a href="https://mkdocs-like-code.readthedocs.io/zh_CN/latest/MkDocs-advanced-operations/theme-configuration/">导航栏支持多级布局：</a></p>
 <h2 id="6-github">6. github上传：</h2>
-<p>创建新的仓库 
-<img alt="figure 4" src="/My_website/docs/manuscript/03_blog/use_computer/attachments/9bf714a7225ecfbe381382bd297ecd08_MD5.png" /></p>
-<p>将本地推送到仓库：</p>
-<p><img alt="figure 5" src="/My_website/docs/manuscript/03_blog/use_computer/attachments/5ba94137196aebb4287b75aadbef2329_MD5.png" /></p>
-<p>git以及上传github命令：</p>
+<p>创建新的仓库 </p>
+<p><img alt="figure 4" src="../images/image2.png" />
+将本地推送到仓库：</p>
+<p><img alt="figure 5" src="../images/image3.png" />
+git以及上传github命令：</p>
 <pre><code>git init
 git add README.md
 git commit -m &quot;first commit&quot;
@@ -819,8 +864,83 @@ git commit -m &quot;update&quot;
 git push -u origin main
 mkdocs gh-deploy
 </code></pre>
-<p>最后，非常感谢<a href="https://www.bilibili.com/video/BV1FB4y1n7Gf/?spm_id_from=333.880.my_history.page.click&amp;vd_source=f6b887c95aa7969fce3d0ed6ca6f2232">8047-</a>up主的视频帮助，让我快速掌握个人网站搭建。也非常感谢<a href="https://www.mkdocs.org/">MkDocs</a> 作者的贡献.以及感谢<a href="https://pages.github.com/">github pages</a>平台</p>
+<p>非常感谢<a href="https://www.bilibili.com/video/BV1FB4y1n7Gf/?spm_id_from=333.880.my_history.page.click&amp;vd_source=f6b887c95aa7969fce3d0ed6ca6f2232">8047-</a>up主的视频帮助，让我快速掌握个人网站搭建。也非常感谢<a href="https://www.mkdocs.org/">MkDocs</a> 作者的贡献.以及感谢<a href="https://pages.github.com/">github pages</a>平台</p>
 <p>这里是我的个人网站<a href="https://Pisceshub.github.io/My_website/">Pisceshub</a></p>
+<p>附件：<strong>mkdocs.yml</strong>文件内容：</p>
+<pre><code>site_name: Pisceshub
+theme:
+  favicon: assets/images/favicon.png
+  logo: assets/images/logo.png
+  name: material
+  language: en
+  features:
+    - navigation.path
+    - navigation.instant
+    - navigation.tracking
+    - navigation.prune
+    # - toc.integrate
+    - navigation.top
+    - search.share
+    - header.autohide
+    - announce.dismiss
+    - navigation.footer
+
+  palette:
+    # Palette toggle for light mode
+    - media: &quot;(prefers-color-scheme: light)&quot;
+      scheme: default
+      ## set colour
+      # red， pink， purple， deep purple， indigo， blue， 
+      # light blue，cyan，teal，green，light green，lime，
+      # yellow，amber，orange，deep orange
+      primary: black  
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: &quot;(prefers-color-scheme: dark)&quot;
+      scheme: slate
+      primary: black
+      accent: blue grey
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+extra_css:
+  - stylesheets/extra.css
+
+# extra:
+#   homepage: https://example.com
+
+
+extra:
+  version:
+    provider: mike
+  consent:
+    title: Cookie consent
+    description: &gt;- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+
+
+copyright: &gt;
+  Copyright &amp;copy; 2016 - 2023 Martin Donath –
+  &lt;a href=&quot;#__consent&quot;&gt;Change cookie settings&lt;/a&gt;
+
+extra_javascript:
+  - javascripts/consent.js
+
+plugins:
+  - search
+  - tags
+
+</code></pre>
 
 
 
@@ -841,6 +961,44 @@ mkdocs gh-deploy
       </main>
       
         <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../%E5%85%B6%E4%BB%96%E8%BD%AF%E4%BB%B6/" class="md-footer__link md-footer__link--prev" aria-label="Previous: 其他软件" rel="prev">
+            <div class="md-footer__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                其他软件
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../%E6%88%91%E4%BC%9A%E7%9A%84%E4%B8%93%E4%B8%9A%E8%BD%AF%E4%BB%B6/" class="md-footer__link md-footer__link--next" aria-label="Next: 我会的专业软件" rel="next">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                我会的专业软件
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -908,7 +1066,7 @@ mkdocs gh-deploy
       </div>
       <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout(function(){document.querySelector("[data-md-component=consent]").hidden=!1},250);var action,form=document.forms.consent;for(action of["submit","reset"])form.addEventListener(action,function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map(function(e){return[e,!0]}))),location.hash="",location.reload()})</script>
     
-    <script id="__config" type="application/json">{"base": "../../../..", "features": ["navigation.path", "navigation.instant", "navigation.tracking", "navigation.prune", "navigation.top", "search.share", "header.autohide", "announce.dismiss"], "search": "../../../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+    <script id="__config" type="application/json">{"base": "../../../..", "features": ["navigation.path", "navigation.instant", "navigation.tracking", "navigation.prune", "navigation.top", "search.share", "header.autohide", "announce.dismiss", "navigation.footer"], "search": "../../../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
     
     
       <script src="../../../../assets/javascripts/bundle.b425cdc4.min.js"></script>
