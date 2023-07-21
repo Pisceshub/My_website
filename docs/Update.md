@@ -2,7 +2,8 @@
 
 - [介绍如何使用Vscode来快速编辑verilog代码](./manuscript/03_blog/001_IC_csdn/介绍如何使用Vscode来快速编辑verilog代码.md)
 - [其他软件](./manuscript/03_blog/004_software/其他软件.md)
-- 
+
+
 以前的内容：
 
 - [about_me](./manuscript/01_my_inf/about_me.md)
