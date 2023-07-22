@@ -122,14 +122,16 @@ git push -u origin main
 mkdocs gh-deploy
 ```
 
-非常感谢[8047-](https://www.bilibili.com/video/BV1FB4y1n7Gf/?spm_id_from=333.880.my_history.page.click&vd_source=f6b887c95aa7969fce3d0ed6ca6f2232)up主的视频帮助，让我快速掌握个人网站搭建。也非常感谢[MkDocs](https://www.mkdocs.org/) 作者的贡献.以及感谢[github pages](https://pages.github.com/)平台
+非常感谢[8047-](https://www.bilibili.com/video/BV1FB4y1n7Gf/?spm_id_from=333.880.my_history.page.click&vd_source=f6b887c95aa7969fce3d0ed6ca6f2232)up主的视频帮助，让我快速掌握个人网站搭建。也非常感谢[MkDocs](https://www.mkdocs.org/) 作者的贡献，感谢[github pages](https://pages.github.com/)平台
 
-这里是我的个人网站[Pisceshub](https://Pisceshub.github.io/My_website/)
+这里是我的个人博客网站[Pisceshub](https://Pisceshub.github.io/My_website/)
 
 
-附件：**mkdocs.yml**文件内容：
+## 9. 附件：
 
-```
+**mkdocs.yml**文件内容：
+
+```mkdocs.yml
 site_name: Pisceshub
 theme:
   favicon: assets/images/favicon.png
@@ -213,9 +215,6 @@ markdown_extensions:
 
 ```
 
-注：目前网站的评论功能暂时还没有参考文章调通，后续有时间我会继续补上。
-
-## 9. 附录：
 
 - 加入本站运行时间方法：
 
@@ -251,3 +250,4 @@ cd F:\My_work_file\Program_file\Obsidian_file\My_World\04_My_website
 mkdocs serve
 ```
 
+注：目前网站的评论功能暂时还没有参考文章调通，后续有时间我会继续补上。

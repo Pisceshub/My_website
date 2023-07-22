@@ -1,0 +1,132 @@
+site_name: Pisceshub
+theme:
+
+  favicon: assets/images/favicon.png
+  logo: assets/images/logo.png
+  name: material
+  language: en
+  features:
+    - navigation.path
+    - navigation.instant
+    - navigation.tracking
+    - navigation.prune
+    # - toc.integrate
+    - navigation.top
+    - search.share
+    - header.autohide
+    - announce.dismiss
+    - navigation.footer
+  icon:
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      ## 设置颜色
+      # red， pink， purple， deep purple， indigo， blue， 
+      # light blue，cyan，teal，green，light green，lime，
+      # yellow，amber，orange，deep orange
+      primary: black  
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: blue grey
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+extra_css:
+  - stylesheets/extra.css
+
+# extra:
+#   homepage: https://example.com
+
+
+extra:
+  version:
+    provider: mike
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+
+
+copyright: >
+  Copyright &copy; 2016 - 2023 Martin Donath –
+  <a href="#__consent">Change cookie settings</a>
+
+extra_javascript:
+  - javascripts/consent.js
+  - '//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js'
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+plugins:
+  - search
+  - tags
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+  # 代码高亮
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+
+  # 提示框
+  - pymdownx.superfences
+  - pymdownx.details
+  - admonition
+site_url: https://Pisceshub.github.io/My_website/
+# 自定义文档：
+nav:
+
+    - Home: index.md
+    - Update: Update.md
+    - Blog:   
+        - ICer: 
+            Vscode-Verilog: ./manuscript/03_blog/001_IC_csdn/介绍如何使用Vscode来快速编辑verilog代码.md
+            HDLbit: ./manuscript/03_blog/001_IC_csdn/HDLbit刷题代码.md
+        - Use PC: 
+            PC skill: ./manuscript/03_blog/002_Use_computer/skill.md 
+            Build Website: ./manuscript/03_blog/002_Use_computer/基于mkdocs搭建个人网站.md
+        - Python: 
+            Python_env: ./manuscript/03_blog/003_Python/python环境设置.md
+        - Software: 
+            Summary: ./manuscript/03_blog/004_software/有趣的软件.md
+            Major: ./manuscript/03_blog/004_software/我会的专业软件.md
+            Writing: ./manuscript/03_blog/004_software/文字编辑类.md
+            Others: ./manuscript/03_blog/004_software/其他软件.md
+    - About me: 
+        My_inf: ./manuscript/01_my_inf/about_me.md 
+        Mg_Blog: ./manuscript/03_blog/My_blog.md
+    - Test:
+         Test1file: ./manuscript/00_test/test.md
+
