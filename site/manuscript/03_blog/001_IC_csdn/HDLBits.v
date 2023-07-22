@@ -1,15 +1,4 @@
-# Verilog练习的[HDLBits](https://hdlbits.01xz.net/wiki/7458 )网站代码
-
-该代码大多数为我初学练习时的记录，部分参考了其他网站的代码。限于当时本人水平有限，后面有时间我会给该代码添加更多注释内容。另外，建议大家还是使用英语备注(中文很多地方存在编码问题)。
-
-还剩最后几道题我没有做，大家可以不用刷完，主要是练习编写的风格和理解解题思路。建议初学者可以先看我的[介绍如何使用Vscode来快速编辑verilog代码](介绍如何使用Vscode来快速编辑verilog代码.md)，来快速完成一些非必要的代码编写。
-
-这里是[HDLBits的verilog文件](HDLBits.v)
-
-源代码如下：
-
-```verilog
-
+https://hdlbits.01xz.net/wiki/7458 
 //7458
 module top_module ( 
     input p1a, p1b, p1c, p1d, p1e, p1f,
@@ -418,17 +407,17 @@ module top_module (
     output reg [1:0] pos  );
 	always@(*)
 		case(in[0])
-			1'b1:	pos = 2'd0;      //0        0 
-			1'b0:	case(in[1])
-						1'b1:	pos = 2'd1;      //0        0 
-						1'b0:	case(in[2])
-									1'b1:	pos = 2'd2;      //0        0 
-									1'b0:	case(in[3])
-												1'b1:	pos = 2'd3;      //0        0 
-												default:	pos = 2'd0;
-											endcase
-								endcase
-					endcase
+			1'b1:		pos = 2'd0;      //0        0 
+			1'b0:		case(in[1])
+							1'b1:		pos = 2'd1;      //0        0 
+							1'b0:		case(in[2])
+											1'b1:		pos = 2'd2;      //0        0 
+											1'b0:		case(in[3])
+															1'b1:		pos = 2'd3;      //0        0 
+															default:	pos = 2'd0;
+														endcase
+										endcase
+						endcase
 		endcase
 endmodule
 
@@ -1062,6 +1051,9 @@ module top_module (
 endmodule
 
 
+
+
+
 //Exams/2012 q1g
 module top_module (
     input [4:1] x,
@@ -1597,7 +1589,7 @@ module top_module(
         end
         else if(enh0) begin               //分钟有进位
             if(hh_r[7:4]==4'd1) begin     //时钟为》10
-                if(hh_r[3:0]==4'd2)begin             //时钟个位==2
+                if(hh_r[3:0]==4'd2)begin            //时钟个位==2
                     hh_r[3:0]<=4'd1;                 //回到01:00:00    
                     hh_r[7:4]<=4'd0;
                 end
@@ -1607,7 +1599,7 @@ module top_module(
                 end
             end
             else begin
-                if(hh_r[3:0]==4'd9)begin             //时钟个位==9
+                if(hh_r[3:0]==4'd9)begin            //时钟个位==9
                     hh_r[3:0]<=4'd0;                 //加到10:00:00 
                     hh_r[7:4]<=4'd1;
                 end
@@ -1886,6 +1878,11 @@ module top_module(
 
 endmodule
 
+
+
+
+
+
 //////***********Bulid lager Circuits******************//
 // Exams/review2015 count1k
 module top_module (
@@ -1961,6 +1958,11 @@ module top_module (
     end
     assign start_shifting = start_shifting_r;
 endmodule
+
+
+
+
+
 
 
 //****************Verification*******/
@@ -2525,5 +2527,3 @@ module top_module (
     assign g =!resetn?1'b0:(next_state == E|next_state == E|next_state == G)?1'b1:1'b0;
 
 endmodule
-
-```

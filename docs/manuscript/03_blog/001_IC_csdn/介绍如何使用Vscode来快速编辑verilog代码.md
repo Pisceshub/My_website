@@ -1,3 +1,5 @@
+介绍如何使用Vscode来快速编辑verilog代码
+
 [该文CSDN链接](https://mp.csdn.net/mp_blog/manage/article?spm=3001.5298)  
 
 背景：verilog中很多重复的结构和语句，针对此情况现有的插件代码补全太少了，所以出此文编写自定义代码块，拒绝重复编写同结构的代码，同结构代码自定义代码模板。

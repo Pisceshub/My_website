@@ -1,4 +1,7 @@
+# 基于mkdocs搭建个人网站
+
 ## 1. 关于环境
+
 基于python3.9创建虚拟环境，python环境配置指令参考[python环境设置](../003_Python/python环境设置.md)  
 
 如果安装有anaconda，则用<span style="background:rgba(173, 239, 239, 0.55)">anaconda创建环境</span>
@@ -212,7 +215,7 @@ markdown_extensions:
 
 注：目前网站的评论功能暂时还没有参考文章调通，后续有时间我会继续补上。
 
-附录：
+## 9. 附录：
 
 - 加入本站运行时间方法：
 

@@ -110,9 +110,6 @@ nav:
 
     - Home: index.md
     - Update: Update.md
-    - About me: 
-        My_inf: ./manuscript/01_my_inf/about_me.md 
-        Mg_Blog: ./manuscript/03_blog/My_blog.md
     - Blog:   
         - ICer: 
             Vscode-Verilog: ./manuscript/03_blog/001_IC_csdn/介绍如何使用Vscode来快速编辑verilog代码.md
@@ -127,6 +124,8 @@ nav:
             Major: ./manuscript/03_blog/004_software/我会的专业软件.md
             Writing: ./manuscript/03_blog/004_software/文字编辑类.md
             Others: ./manuscript/03_blog/004_software/其他软件.md
-
+    - About me: 
+        My_inf: ./manuscript/01_my_inf/about_me.md 
+        Mg_Blog: ./manuscript/03_blog/My_blog.md
     - Test:
          Test1file: ./manuscript/00_test/test.md

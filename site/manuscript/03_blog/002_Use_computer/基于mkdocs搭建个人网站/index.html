@@ -426,6 +426,20 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../001_IC_csdn/HDLbit%E5%88%B7%E9%A2%98%E4%BB%A3%E7%A0%81/" class="md-nav__link">
+        HDLbit
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -1038,6 +1052,38 @@ git以及上传github命令：
 <a id="__codelineno-12-79" name="__codelineno-12-79" href="#__codelineno-12-79"></a>  - pymdownx.arithmatex:
 <a id="__codelineno-12-80" name="__codelineno-12-80" href="#__codelineno-12-80"></a>      generic: true
 </code></pre></div>
+<p>注：目前网站的评论功能暂时还没有参考文章调通，后续有时间我会继续补上。</p>
+<p>附录：</p>
+<ul>
+<li>加入本站运行时间方法：</li>
+</ul>
+<p>示例：
+<img alt="" src="04_My_website/docs/manuscript/03_blog/002_Use_computer/attachments/b838c33025abb2368b6126720b07c52f_MD5.png" />
+代码：</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>&lt;hr&gt;&lt;span id=&quot;runtime_span&quot;&gt;&lt;/span&gt;
+<a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a>&lt;script type=&quot;text/javascript&quot;&gt;function show_runtime(){window.setTimeout(&quot;show_runtime()&quot;,1000);X=new 
+<a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a>Date(&quot;6/30/2023 17:20:00&quot;);
+<a id="__codelineno-13-4" name="__codelineno-13-4" href="#__codelineno-13-4"></a>Y=new Date();T=(Y.getTime()-X.getTime());M=24*60*60*1000;
+<a id="__codelineno-13-5" name="__codelineno-13-5" href="#__codelineno-13-5"></a>a=T/M;A=Math.floor(a);b=(a-A)*24;B=Math.floor(b);c=(b-B)*60;C=Math.floor((b-B)*60);D=Math.floor((c-C)*60);
+<a id="__codelineno-13-6" name="__codelineno-13-6" href="#__codelineno-13-6"></a>runtime_span.innerHTML=&quot;本站已运行: &quot;+A+&quot;天&quot;+B+&quot;小时&quot;+C+&quot;分&quot;+D+&quot;秒&quot;}show_runtime();&lt;/script&gt;
+</code></pre></div>
+<ul>
+<li>快速更新网站指令：</li>
+</ul>
+<p>可以将该组命令设定为Update_website.cmd文件，以后在obsidian中点击运行即可。</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>cd F:\My_work_file\Program_file\Obsidian_file\My_World\04_My_website
+<a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a>git add .
+<a id="__codelineno-14-3" name="__codelineno-14-3" href="#__codelineno-14-3"></a>git commit -m &quot;update&quot;
+<a id="__codelineno-14-4" name="__codelineno-14-4" href="#__codelineno-14-4"></a>git push -u origin main
+<a id="__codelineno-14-5" name="__codelineno-14-5" href="#__codelineno-14-5"></a>mkdocs gh-deploy
+</code></pre></div>
+<ul>
+<li>本地快速预览网站指令：
+可以将该组命令设定为Preview_website.cmd文件，以后在obsidian中点击运行即可。
+<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>cd F:\My_work_file\Program_file\Obsidian_file\My_World\04_My_website
+<a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a>mkdocs serve
+</code></pre></div></li>
+</ul>
 
 
 
