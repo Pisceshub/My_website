@@ -117,6 +117,7 @@ nav:
         - Use PC: 
             PC skill: ./manuscript/03_blog/002_Use_computer/skill.md 
             Build Website: ./manuscript/03_blog/002_Use_computer/基于mkdocs搭建个人网站.md
+            Listary: ./manuscript/03_blog/002_Use_computer/Listary介绍.md
         - Python: 
             Python_env: ./manuscript/03_blog/003_Python/python环境设置.md
         - Software: 
