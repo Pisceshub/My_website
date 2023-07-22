@@ -50,7 +50,7 @@ hide:
 
 
 快速更新网站指令：可以将该组命令设定为cmd文件，以后在obsidian中双击运行即可。
-```
+```update_website.cmd
 cd F:\My_work_file\Program_file\Obsidian_file\My_World\04_My_website
 git add .
 git commit -m "update"
@@ -60,7 +60,7 @@ mkdocs gh-deploy
   
 
 本地快速预览网站指令：
-```
+```Preview.cmd
 cd F:\My_work_file\Program_file\Obsidian_file\My_World\04_My_website
 mkdocs serve
 ```
