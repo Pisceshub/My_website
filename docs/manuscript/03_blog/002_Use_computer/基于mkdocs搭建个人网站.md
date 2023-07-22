@@ -51,6 +51,7 @@ theme:
 
 ---
 
+
 ## 4. 创建项目
 
 ```
@@ -219,7 +220,7 @@ markdown_extensions:
 - 加入本站运行时间方法：
 
 示例：
-![](04_My_website/docs/manuscript/03_blog/002_Use_computer/attachments/b838c33025abb2368b6126720b07c52f_MD5.png)
+![figure1](./attachments/b838c33025abb2368b6126720b07c52f_MD5.png)
 代码：
 
 ```index.md
