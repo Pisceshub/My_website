@@ -209,3 +209,42 @@ markdown_extensions:
       generic: true
 
 ```
+
+注：目前网站的评论功能暂时还没有参考文章调通，后续有时间我会继续补上。
+
+附录：
+
+- 加入本站运行时间方法：
+
+示例：
+![](04_My_website/docs/manuscript/03_blog/002_Use_computer/attachments/b838c33025abb2368b6126720b07c52f_MD5.png)
+代码：
+
+```index.md
+<hr><span id="runtime_span"></span>
+<script type="text/javascript">function show_runtime(){window.setTimeout("show_runtime()",1000);X=new 
+Date("6/30/2023 17:20:00");
+Y=new Date();T=(Y.getTime()-X.getTime());M=24*60*60*1000;
+a=T/M;A=Math.floor(a);b=(a-A)*24;B=Math.floor(b);c=(b-B)*60;C=Math.floor((b-B)*60);D=Math.floor((c-C)*60);
+runtime_span.innerHTML="本站已运行: "+A+"天"+B+"小时"+C+"分"+D+"秒"}show_runtime();</script>
+```
+
+- 快速更新网站指令：
+
+可以将该组命令设定为Update_website.cmd文件，以后在obsidian中点击运行即可。
+
+```update_website.cmd
+cd F:\My_work_file\Program_file\Obsidian_file\My_World\04_My_website
+git add .
+git commit -m "update"
+git push -u origin main
+mkdocs gh-deploy
+```
+
+- 本地快速预览网站指令：
+可以将该组命令设定为Preview_website.cmd文件，以后在obsidian中点击运行即可。
+```Preview.cmd
+cd F:\My_work_file\Program_file\Obsidian_file\My_World\04_My_website
+mkdocs serve
+```
+
