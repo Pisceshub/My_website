@@ -925,13 +925,13 @@
 <h1 id="mkdocs">基于mkdocs搭建个人网站</h1>
 <h2 id="1">1. 关于环境</h2>
 <p>基于python3.9创建虚拟环境，python环境配置指令参考<a href="../../003_Python/python%E7%8E%AF%E5%A2%83%E8%AE%BE%E7%BD%AE/">python环境设置</a>  </p>
-<p>如果安装有anaconda，则用<span style="background:rgba(173, 239, 239, 0.55)">anaconda创建环境</span></p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="c1"># 创建虚拟环境</span>
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="n">conda</span> <span class="n">create</span> <span class="o">-</span><span class="n">n</span> <span class="n">mkdocs_env</span> <span class="n">python</span><span class="o">=</span><span class="mf">3.9</span>
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="c1"># 激活虚拟环境：</span>
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="n">conda</span> <span class="n">activate</span> <span class="n">mkdocs_env</span>
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="c1"># 检查pip list是不是空的</span>
-<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="n">pip</span> <span class="nb">list</span>
+<p>如果安装有anaconda，则用anaconda创建环境</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a># 创建虚拟环境
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>conda create -n mkdocs_env python=3.9
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a># 激活虚拟环境：
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>conda activate mkdocs_env
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a># 检查pip list是不是空的
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>pip list
 </code></pre></div>
 <h2 id="2-mkdocs">2. 关于mkdocs</h2>
 <p>用mkdocs在github上部署使用非常方便：可以将markdown全部转为HTML，可以部署到服务器或者github。</p>
@@ -1089,15 +1089,32 @@ git以及上传github命令：
 <ul>
 <li>加入本站运行时间方法：</li>
 </ul>
-<p>示例：
-<img alt="figure1" src="../attachments/b838c33025abb2368b6126720b07c52f_MD5.png" />
-代码：</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>&lt;hr&gt;&lt;span id=&quot;runtime_span&quot;&gt;&lt;/span&gt;
-<a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a>&lt;script type=&quot;text/javascript&quot;&gt;function show_runtime(){window.setTimeout(&quot;show_runtime()&quot;,1000);X=new 
-<a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a>Date(&quot;6/30/2023 17:20:00&quot;);
-<a id="__codelineno-13-4" name="__codelineno-13-4" href="#__codelineno-13-4"></a>Y=new Date();T=(Y.getTime()-X.getTime());M=24*60*60*1000;
-<a id="__codelineno-13-5" name="__codelineno-13-5" href="#__codelineno-13-5"></a>a=T/M;A=Math.floor(a);b=(a-A)*24;B=Math.floor(b);c=(b-B)*60;C=Math.floor((b-B)*60);D=Math.floor((c-C)*60);
-<a id="__codelineno-13-6" name="__codelineno-13-6" href="#__codelineno-13-6"></a>runtime_span.innerHTML=&quot;本站已运行: &quot;+A+&quot;天&quot;+B+&quot;小时&quot;+C+&quot;分&quot;+D+&quot;秒&quot;}show_runtime();&lt;/script&gt;
+<p>示例： </p>
+<p><img alt="attachments/b838c33025abb2368b6126720b07c52f_MD5.png" src="../attachments/b838c33025abb2368b6126720b07c52f_MD5.png" /></p>
+<p>代码：</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>&lt;hr&gt;  
+<a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a>
+<a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a>&lt;span id=&quot;runtime_span&quot;&gt;&lt;/span&gt;  
+<a id="__codelineno-13-4" name="__codelineno-13-4" href="#__codelineno-13-4"></a>
+<a id="__codelineno-13-5" name="__codelineno-13-5" href="#__codelineno-13-5"></a>&lt;script type=&quot;text/javascript&quot;&gt;
+<a id="__codelineno-13-6" name="__codelineno-13-6" href="#__codelineno-13-6"></a>function show_runtime()
+<a id="__codelineno-13-7" name="__codelineno-13-7" href="#__codelineno-13-7"></a>{
+<a id="__codelineno-13-8" name="__codelineno-13-8" href="#__codelineno-13-8"></a>    window.setTimeout(&quot;show_runtime()&quot;,1000);
+<a id="__codelineno-13-9" name="__codelineno-13-9" href="#__codelineno-13-9"></a>    X=new Date(&quot;6/30/2023 17:20:00&quot;);
+<a id="__codelineno-13-10" name="__codelineno-13-10" href="#__codelineno-13-10"></a>    Y=new Date();
+<a id="__codelineno-13-11" name="__codelineno-13-11" href="#__codelineno-13-11"></a>    T=(Y.getTime()-X.getTime());
+<a id="__codelineno-13-12" name="__codelineno-13-12" href="#__codelineno-13-12"></a>    M=24*60*60*1000;
+<a id="__codelineno-13-13" name="__codelineno-13-13" href="#__codelineno-13-13"></a>    a=T/M;A=Math.floor(a);
+<a id="__codelineno-13-14" name="__codelineno-13-14" href="#__codelineno-13-14"></a>    b=(a-A)*24;
+<a id="__codelineno-13-15" name="__codelineno-13-15" href="#__codelineno-13-15"></a>    B=Math.floor(b);
+<a id="__codelineno-13-16" name="__codelineno-13-16" href="#__codelineno-13-16"></a>    c=(b-B)*60;
+<a id="__codelineno-13-17" name="__codelineno-13-17" href="#__codelineno-13-17"></a>    C=Math.floor((b-B)*60);
+<a id="__codelineno-13-18" name="__codelineno-13-18" href="#__codelineno-13-18"></a>    D=Math.floor((c-C)*60);
+<a id="__codelineno-13-19" name="__codelineno-13-19" href="#__codelineno-13-19"></a>    runtime_span.innerHTML=&quot;本站已运行: &quot;+A+&quot;天&quot;+B+&quot;小时&quot;+C+&quot;分&quot;+D+&quot;秒&quot;
+<a id="__codelineno-13-20" name="__codelineno-13-20" href="#__codelineno-13-20"></a>}
+<a id="__codelineno-13-21" name="__codelineno-13-21" href="#__codelineno-13-21"></a>show_runtime();
+<a id="__codelineno-13-22" name="__codelineno-13-22" href="#__codelineno-13-22"></a>
+<a id="__codelineno-13-23" name="__codelineno-13-23" href="#__codelineno-13-23"></a>&lt;/script&gt;
 </code></pre></div>
 <ul>
 <li>快速更新网站指令：</li>
@@ -1111,11 +1128,11 @@ git以及上传github命令：
 </code></pre></div>
 <ul>
 <li>本地快速预览网站指令：
-可以将该组命令设定为Preview_website.cmd文件，以后在obsidian中点击运行即可。
+可以将该组命令设定为Preview_website.cmd文件，以后在obsidian中点击运行即可。</li>
+</ul>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>cd F:\My_work_file\Program_file\Obsidian_file\My_World\04_My_website
 <a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a>mkdocs serve
-</code></pre></div></li>
-</ul>
+</code></pre></div>
 <p>注：目前网站的评论功能暂时还没有参考文章调通，后续有时间我会继续补上。</p>
 
 
