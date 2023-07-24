@@ -58,6 +58,9 @@ def sayhi():
 
 !  obsidian暂时不支持这个
 
+## 复制粘贴图片：
+![attachments/2ae5ff17fbae46653c5ec008cb7e392a_MD5.png|450](attachments/2ae5ff17fbae46653c5ec008cb7e392a_MD5.png)
+
 <hr>
 <span id="busuanzi_container_page_pv"><font size="3" color="grey">本文总阅读量<span id="busuanzi_value_page_pv"></span>次</font></span>
 

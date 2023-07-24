@@ -4,9 +4,9 @@
 
 基于python3.9创建虚拟环境，python环境配置指令参考[python环境设置](../003_Python/python环境设置.md)  
 
-如果安装有anaconda，则用<span style="background:rgba(173, 239, 239, 0.55)">anaconda创建环境</span>
+如果安装有anaconda，则用anaconda创建环境
 
-```python
+```cmd
 # 创建虚拟环境
 conda create -n mkdocs_env python=3.9
 # 激活虚拟环境：
@@ -219,17 +219,36 @@ markdown_extensions:
 
 - 加入本站运行时间方法：
 
-示例：
-![figure1](./attachments/b838c33025abb2368b6126720b07c52f_MD5.png)
+示例： 
+
+![attachments/b838c33025abb2368b6126720b07c52f_MD5.png](attachments/b838c33025abb2368b6126720b07c52f_MD5.png)
+
 代码：
 
-```index.md
-<hr><span id="runtime_span"></span>
-<script type="text/javascript">function show_runtime(){window.setTimeout("show_runtime()",1000);X=new 
-Date("6/30/2023 17:20:00");
-Y=new Date();T=(Y.getTime()-X.getTime());M=24*60*60*1000;
-a=T/M;A=Math.floor(a);b=(a-A)*24;B=Math.floor(b);c=(b-B)*60;C=Math.floor((b-B)*60);D=Math.floor((c-C)*60);
-runtime_span.innerHTML="本站已运行: "+A+"天"+B+"小时"+C+"分"+D+"秒"}show_runtime();</script>
+```
+<hr>  
+
+<span id="runtime_span"></span>  
+
+<script type="text/javascript">
+function show_runtime()
+{
+	window.setTimeout("show_runtime()",1000);
+	X=new Date("6/30/2023 17:20:00");
+	Y=new Date();
+	T=(Y.getTime()-X.getTime());
+	M=24*60*60*1000;
+	a=T/M;A=Math.floor(a);
+	b=(a-A)*24;
+	B=Math.floor(b);
+	c=(b-B)*60;
+	C=Math.floor((b-B)*60);
+	D=Math.floor((c-C)*60);
+	runtime_span.innerHTML="本站已运行: "+A+"天"+B+"小时"+C+"分"+D+"秒"
+}
+show_runtime();
+
+</script>
 ```
 
 - 快速更新网站指令：
@@ -246,7 +265,8 @@ mkdocs gh-deploy
 
 - 本地快速预览网站指令：
 可以将该组命令设定为Preview_website.cmd文件，以后在obsidian中点击运行即可。
-```Preview.cmd
+
+```
 cd F:\My_work_file\Program_file\Obsidian_file\My_World\04_My_website
 mkdocs serve
 ```
