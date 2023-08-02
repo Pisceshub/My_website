@@ -108,13 +108,13 @@ site_url: https://Pisceshub.github.io/My_website/
 # 自定义文档：
 nav:
 
-    - Home: index.md
-    - Update: Update.md
-    - Blog:   
+    - 主页: index.md
+    - 最近更新: Update.md
+    - 博客:   
         - ICer: 
             Vscode-Verilog: ./manuscript/03_blog/001_IC_csdn/介绍如何使用Vscode来快速编辑verilog代码.md
             HDLbit: ./manuscript/03_blog/001_IC_csdn/HDLbit刷题代码.md
-        - Use PC: 
+        - PC使用技巧: 
             PC skill: ./manuscript/03_blog/002_Use_computer/skill.md 
             Build Website: ./manuscript/03_blog/002_Use_computer/基于mkdocs搭建个人网站.md
             Listary: ./manuscript/03_blog/002_Use_computer/Listary介绍.md
@@ -125,9 +125,9 @@ nav:
             Major: ./manuscript/03_blog/004_software/我会的专业软件.md
             Writing: ./manuscript/03_blog/004_software/文字编辑类.md
             Others: ./manuscript/03_blog/004_software/其他软件.md
-    - About me: 
-        My_inf: ./manuscript/01_my_inf/about_me.md 
-        Mg_Blog: ./manuscript/03_blog/My_blog.md
-    - Test:
-         Test1file: ./manuscript/00_test/test.md
+    - 关于我: 
+        个人信息: ./manuscript/01_my_inf/about_me.md 
+        我的博客: ./manuscript/03_blog/My_blog.md
+    - 测试:
+         测试文件1: ./manuscript/00_test/test.md
 
